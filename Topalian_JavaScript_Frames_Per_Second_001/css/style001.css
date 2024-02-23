@@ -1,0 +1,125 @@
+/* Dedicated to God the Father */
+
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2024 */
+
+/* https://github.com/ChristopherTopalian */
+
+/* https://github.com/ChristopherAndrewTopalian */
+
+/* style001.css */
+
+body
+{
+    background-color: rgb(40, 40, 40);
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+hr
+{
+    margin: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+.mainDiv
+{
+    position: fixed;
+    left: 10px;
+    top: 5px;
+    margin: 5px;
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 4px;
+    text-align: right;
+    transition: opacity 4.0s ease-in-out;
+}
+
+.counterLabel
+{
+    padding-right: 6.5px;
+}
+
+.counterTextbox
+{
+    background-color: rgb(0, 0, 0);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.fpsLabel
+{
+    padding-right: 5px;
+}
+
+.fpsTextbox
+{
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input[type = "range"]
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, rgb(10, 25, 47), rgb(0, 180, 255));
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+input[type = "range"]:hover
+{
+    opacity: 1;
+}
+
+/* chrome and chromium */
+input[type = "range"]::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background:rgb(0, 180, 255);
+    border: solid 2px rgb(20, 20, 20);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* mozilla */
+input[type = "range"]::-moz-range-thumb
+{
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
