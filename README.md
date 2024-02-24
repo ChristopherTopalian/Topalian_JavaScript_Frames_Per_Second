@@ -4,3 +4,5 @@ A JavaScript application that teaches how to change FPS using a nice futuristic 
 Video: https://www.youtube.com/watch?v=BUZYx4EfoT0
 
 App: https://sites.google.com/view/collegeofscripting/topalian_javascript_frames_per_second
+
+![Topalian_JavaScript_Frames_Per_Second]([https://pbs.twimg.com/media/GGdmLs8XEAAdJO7?format=jpg&name=larg](https://pbs.twimg.com/media/GHF32YaXwAAFuqx?format=jpg&name=large)https://pbs.twimg.com/media/GHF32YaXwAAFuqx?format=jpg&name=large)
